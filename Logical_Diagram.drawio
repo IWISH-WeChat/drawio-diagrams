@@ -1,9 +1,102 @@
-<mxfile host="app.diagrams.net" modified="2024-10-09T09:45:10.452Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="22.1.21" etag="JQMvUd_GTL7f5jt1giHz" type="github">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="Page-1" id="6DLZNbmaYd7OtqTt1ENY">
-    <mxGraphModel>
+    <mxGraphModel dx="2868" dy="1688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="woT45dPD0n1-kRW0Hlq9-2" value="WeChat Open Platform(&lt;span style=&quot;background-color: initial;&quot;&gt;微信开放平台)&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=30;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="100" width="2230" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="woT45dPD0n1-kRW0Hlq9-6" value="&lt;b&gt;Admin Center&lt;/b&gt;&lt;div&gt;&lt;b&gt;管理中心&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="woT45dPD0n1-kRW0Hlq9-2">
+          <mxGeometry x="40" y="467" width="2160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="woT45dPD0n1-kRW0Hlq9-14" value="Third-Party Platform&lt;div style=&quot;&quot;&gt;第三方开放平台&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" vertex="1" parent="woT45dPD0n1-kRW0Hlq9-2">
+          <mxGeometry x="1250" y="120" width="950" height="337" as="geometry" />
+        </mxCell>
+        <mxCell id="woT45dPD0n1-kRW0Hlq9-47" value="&lt;span data-v-1a1416e5=&quot;&quot; style=&quot;margin: 0px; padding: 0px; outline: 0px; color: rgb(193, 194, 195); font-family: -apple-system-font, &amp;quot;system-ui&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: 14px;&quot;&gt;定制化型：上限5个，还可创建5个&lt;/span&gt;&lt;br data-v-1a1416e5=&quot;&quot; style=&quot;margin: 0px; padding: 0px; outline: 0px; color: rgb(193, 194, 195); font-family: -apple-system-font, &amp;quot;system-ui&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: 14px;&quot;&gt;&lt;span data-v-1a1416e5=&quot;&quot; style=&quot;margin: 0px; padding: 0px; outline: 0px; color: rgb(193, 194, 195); font-family: -apple-system-font, &amp;quot;system-ui&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: 14px;&quot;&gt;平台型 ：上限5个，还可创建5个&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="woT45dPD0n1-kRW0Hlq9-14">
+          <mxGeometry x="710" y="284" width="230" height="46.5" as="geometry" />
+        </mxCell>
+        <mxCell id="woT45dPD0n1-kRW0Hlq9-15" value="Mobile Application&lt;div style=&quot;&quot;&gt;移动应用&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" vertex="1" parent="woT45dPD0n1-kRW0Hlq9-2">
+          <mxGeometry x="1020" y="120" width="210" height="337" as="geometry">
+            <mxRectangle x="590" y="140" width="140" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="woT45dPD0n1-kRW0Hlq9-16" value="Share &amp;amp; Favorites&lt;div&gt;分享与收藏&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;flipH=1;flipV=0;" vertex="1" parent="woT45dPD0n1-kRW0Hlq9-15">
+          <mxGeometry x="10" y="40" width="190" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="woT45dPD0n1-kRW0Hlq9-17" value="WeChat Pay&lt;div&gt;微信支付&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;flipH=1;flipV=0;" vertex="1" parent="woT45dPD0n1-kRW0Hlq9-15">
+          <mxGeometry x="10" y="80" width="190" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="woT45dPD0n1-kRW0Hlq9-18" value="Weixin Login&lt;div&gt;微信登录&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;flipH=1;flipV=0;" vertex="1" parent="woT45dPD0n1-kRW0Hlq9-15">
+          <mxGeometry x="10" y="120" width="190" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="woT45dPD0n1-kRW0Hlq9-19" value="Weixin Smart API&lt;div&gt;微信智能接口&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;flipH=1;flipV=0;" vertex="1" parent="woT45dPD0n1-kRW0Hlq9-15">
+          <mxGeometry x="10" y="160" width="190" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="woT45dPD0n1-kRW0Hlq9-21" value="One-time Subscription Message&lt;div&gt;一次性订阅消息&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;flipH=1;flipV=0;" vertex="1" parent="woT45dPD0n1-kRW0Hlq9-15">
+          <mxGeometry x="10" y="200" width="190" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="woT45dPD0n1-kRW0Hlq9-22" value="Launch Mini Program From App&lt;div&gt;APP拉起小程序&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;flipH=1;flipV=0;" vertex="1" parent="woT45dPD0n1-kRW0Hlq9-15">
+          <mxGeometry x="10" y="240" width="190" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="woT45dPD0n1-kRW0Hlq9-23" value="Launch App Program From web&lt;div&gt;微信网页拉起App&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;flipH=1;flipV=0;" vertex="1" parent="woT45dPD0n1-kRW0Hlq9-15">
+          <mxGeometry x="10" y="280" width="190" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="woT45dPD0n1-kRW0Hlq9-24" value="Website Application&lt;div style=&quot;&quot;&gt;网站应用&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" vertex="1" parent="woT45dPD0n1-kRW0Hlq9-2">
+          <mxGeometry x="830" y="120" width="180" height="337" as="geometry">
+            <mxRectangle x="590" y="140" width="140" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="woT45dPD0n1-kRW0Hlq9-27" value="Weixin Login&lt;div&gt;微信登录&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;flipH=1;flipV=0;" vertex="1" parent="woT45dPD0n1-kRW0Hlq9-24">
+          <mxGeometry x="10" y="50" width="160" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="woT45dPD0n1-kRW0Hlq9-32" value="Weixin Smart API&lt;div&gt;微信智能接口&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;flipH=1;flipV=0;" vertex="1" parent="woT45dPD0n1-kRW0Hlq9-24">
+          <mxGeometry x="10" y="90" width="160" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="woT45dPD0n1-kRW0Hlq9-33" value="Official Account&lt;div style=&quot;&quot;&gt;公众号&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" vertex="1" parent="woT45dPD0n1-kRW0Hlq9-2">
+          <mxGeometry x="640" y="120" width="185" height="337" as="geometry">
+            <mxRectangle x="590" y="140" width="140" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="woT45dPD0n1-kRW0Hlq9-34" value="Bind Official Account&lt;div&gt;绑定公众号&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;flipH=1;flipV=0;" vertex="1" parent="woT45dPD0n1-kRW0Hlq9-33">
+          <mxGeometry x="10" y="50" width="160" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="woT45dPD0n1-kRW0Hlq9-37" value="&lt;span style=&quot;color: rgb(158, 159, 159); font-family: &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, 黑体, Helvetica, Arial, Tahoma, sans-serif; font-size: 14px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;相同主体：上限50个，绑定次数不限。&lt;/span&gt;&lt;br style=&quot;color: rgb(158, 159, 159); font-family: &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, 黑体, Helvetica, Arial, Tahoma, sans-serif; font-size: 14px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: rgb(158, 159, 159); font-family: &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, 黑体, Helvetica, Arial, Tahoma, sans-serif; font-size: 14px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;不同主体：上限5个，本月还可以绑定5次。&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="woT45dPD0n1-kRW0Hlq9-33">
+          <mxGeometry x="23.75" y="120" width="137.5" height="66.5" as="geometry" />
+        </mxCell>
+        <mxCell id="woT45dPD0n1-kRW0Hlq9-38" value="Mini Program&lt;div style=&quot;&quot;&gt;小程序&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" vertex="1" parent="woT45dPD0n1-kRW0Hlq9-2">
+          <mxGeometry x="445" y="120" width="185" height="337" as="geometry">
+            <mxRectangle x="590" y="140" width="140" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="woT45dPD0n1-kRW0Hlq9-39" value="Bind Mini Program&lt;div&gt;绑定小程序&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;flipH=1;flipV=0;" vertex="1" parent="woT45dPD0n1-kRW0Hlq9-38">
+          <mxGeometry x="10" y="50" width="160" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="woT45dPD0n1-kRW0Hlq9-40" value="&lt;span style=&quot;color: rgb(158, 159, 159); font-family: &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, 黑体, Helvetica, Arial, Tahoma, sans-serif; font-size: 14px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;相同主体：上限50个，绑定次数不限。&lt;/span&gt;&lt;br style=&quot;color: rgb(158, 159, 159); font-family: &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, 黑体, Helvetica, Arial, Tahoma, sans-serif; font-size: 14px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: rgb(158, 159, 159); font-family: &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, 黑体, Helvetica, Arial, Tahoma, sans-serif; font-size: 14px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;不同主体：上限5个，本月还可以绑定5次。&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="woT45dPD0n1-kRW0Hlq9-38">
+          <mxGeometry x="23.75" y="120" width="137.5" height="66.5" as="geometry" />
+        </mxCell>
+        <mxCell id="woT45dPD0n1-kRW0Hlq9-41" value="Weixin Store&lt;div style=&quot;&quot;&gt;小店&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" vertex="1" parent="woT45dPD0n1-kRW0Hlq9-2">
+          <mxGeometry x="245" y="120" width="185" height="337" as="geometry">
+            <mxRectangle x="590" y="140" width="140" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="woT45dPD0n1-kRW0Hlq9-42" value="Bind Weixin Store&lt;div&gt;绑定小店&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;flipH=1;flipV=0;" vertex="1" parent="woT45dPD0n1-kRW0Hlq9-41">
+          <mxGeometry x="10" y="50" width="160" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="woT45dPD0n1-kRW0Hlq9-43" value="&lt;span style=&quot;color: rgb(193, 194, 195); font-family: -apple-system-font, &amp;quot;system-ui&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: 14px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;相同主体或关联主体：上限20个，绑定次数不限&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="woT45dPD0n1-kRW0Hlq9-41">
+          <mxGeometry x="23.75" y="120" width="137.5" height="66.5" as="geometry" />
+        </mxCell>
+        <mxCell id="woT45dPD0n1-kRW0Hlq9-44" value="App Category&lt;div style=&quot;&quot;&gt;应用类目&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" vertex="1" parent="woT45dPD0n1-kRW0Hlq9-2">
+          <mxGeometry x="40" y="120" width="185" height="337" as="geometry">
+            <mxRectangle x="590" y="140" width="140" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="woT45dPD0n1-kRW0Hlq9-45" value="Add Category&lt;div&gt;添加类目&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;flipH=1;flipV=0;" vertex="1" parent="woT45dPD0n1-kRW0Hlq9-44">
+          <mxGeometry x="10" y="50" width="160" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="woT45dPD0n1-kRW0Hlq9-46" value="&lt;span style=&quot;color: rgb(154, 154, 154); font-family: -apple-system-font, &amp;quot;system-ui&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial, sans-serif; font-size: 14px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;常规最多5个&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="woT45dPD0n1-kRW0Hlq9-44">
+          <mxGeometry x="23.75" y="120" width="137.5" height="66.5" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
